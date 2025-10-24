@@ -8,7 +8,7 @@ st.set_page_config(page_title="D a t a   V i s u a l i z a t i o n s", layout="w
 
 st.markdown(
     """
-    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+    @import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet")
     <style>
     /* Centered title */
     .centered-title {
@@ -262,3 +262,7 @@ function addFinalPoint() {{
 """
 
 st.components.v1.html(amcharts_html, height=750, scrolling=True)
+st.markdown(
+    "<p style='text-align:center; font-size:10px; color: #555555;'>Data source: Berkeley Earth Land</p>",
+    unsafe_allow_html=True
+)
