@@ -8,14 +8,13 @@ st.set_page_config(page_title="D a t a   V i s u a l i z a t i o n s", layout="w
 
 st.markdown(
     """
-    @import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet")
     <style>
     /* Centered title */
     .centered-title {
         text-align: center;
         color: #0b3d91;
         font-weight: bold;
-        font-family: 'UnifrakturCook', serif; /* NYT-like font */
+        font-family: 'Old Standard TT', serif; /* default page font */
     }
     </style>
     """,
