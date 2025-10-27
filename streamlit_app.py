@@ -287,15 +287,13 @@ st.markdown(
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<br><br>", unsafe_allow_html=True)
 
-
-st.markdown("<h1 class='title'>Stacked Chart of Carbon Emissions</h1>", unsafe_allow_html=True)
-st.image("stacked.png", caption="Stacked Chart of Carbon Emissions", use_container_width=True)
-
-
-st.markdown("<br><br>", unsafe_allow_html=True)
-st.markdown("<br><br>", unsafe_allow_html=True)
-
-
 st.markdown("<h1 class='title'>Bar Chart of Population Distribution</h1>", unsafe_allow_html=True)
 st.image("bars.png", caption="Bar Chart of Population Distribution", use_container_width=True)
 
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+
+st.markdown("<h1 class='title'>A New Way of Looking at Cliamte Change: Teleconnections</h1>", unsafe_allow_html=True)
+st.image("teleco.png", caption="Map of various grains (color) and teleconnections (dots)", use_container_width=True)
