@@ -211,8 +211,8 @@ function addFinalPoint() {{
     );
 
     finalSeries.data.setAll([
-        {{ Month: 9, Monthly_Anomaly: 1.8 }},
-        {{ Month: 9, Monthly_Anomaly: 1.8 }} // duplicate for bullet rendering
+        {{ Month: 9, Monthly_Anomaly: 1.6 }},
+        {{ Month: 9, Monthly_Anomaly: 1.6 }} // duplicate for bullet rendering
     ]);
 
     // Create bullet with circle + label
@@ -233,7 +233,7 @@ function addFinalPoint() {{
 
             // Label
             var label = am5.Label.new(root, {{
-                text: "September 2023",
+                text: "September 2024",
                 centerX: am5.p50,
                 centerY: am5.p50,  // position above the circle
                 dy: -10,            // fine-tune vertical offset
