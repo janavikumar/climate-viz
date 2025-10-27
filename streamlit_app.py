@@ -16,6 +16,13 @@ st.markdown(
         font-weight: bold;
         font-family: 'Old Standard TT', serif; /* default page font */
     }
+
+    .title {
+        text-align: center;
+        color: #000000;
+        font-weight: bold;
+        font-family: 'Old Standard TT', serif; /* default page font */
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -266,3 +273,29 @@ st.markdown(
     "<p style='text-align:center; font-size:10px; color: #555555;'>Data source: Berkeley Earth Land</p>",
     unsafe_allow_html=True
 )
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+
+st.markdown("<h1 class='title'>Temperature Mappings</h1>", unsafe_allow_html=True)
+st.image("map.png", caption="Choropleth Map of Temperature Changes in 21st Century", use_column_width=True)
+st.markdown(
+    "<p style='text-align:center; font-size:10px; color: #555555;'>Source: Climate Central</p>",
+    unsafe_allow_html=True
+)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+
+st.markdown("<h1 class='title'>Stacked Chart of Carbon Emissions</h1>", unsafe_allow_html=True)
+st.image("stacked.png", caption="Stacked Chart of Carbon Emissions", use_column_width=True)
+
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+
+st.markdown("<h1 class='title'>Bar Chart of Population Distribution</h1>", unsafe_allow_html=True)
+st.image("bars.png", caption="Bar Chart of Population Distribution", use_column_width=True)
+
