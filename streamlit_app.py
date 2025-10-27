@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 
-st.set_page_config(page_title="D a t a   V i s u a l i z a t i o n s", layout="wide")
+st.set_page_config(page_title="D a t a   V i s u a l i z a t i o n s", layout="centered")
 
 # Custom CSS to center the title
 
@@ -260,7 +260,8 @@ function addFinalPoint() {{
 </html>
 """
 
-st.components.v1.html(amcharts_html, height=750, scrolling=True)
+st.components.v1.html(amcharts_html, height=500, width=700, scrolling=False)
+
 st.markdown(
     "<p style='text-align:center; font-size:10px; color: #555555;'>Data source: Berkeley Earth Land</p>",
     unsafe_allow_html=True
